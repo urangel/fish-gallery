@@ -10,6 +10,8 @@
   max-width: 1000px;
   height: auto;
   max-height: 75vh; 
+  border-radius: 1px;
+
 }
 
 #landing h1 {
@@ -18,6 +20,14 @@
   border-radius: 1px;
   color: #eee;
   z-index: 1;
+}
+
+#profile-image {
+  display: block;
+  margin: 20px auto;
+  max-height: 25%;
+  width: 25%;
+  border-radius: 1px;
 }
 
 @media only screen and (max-width: 576px){

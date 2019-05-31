@@ -5,12 +5,12 @@ function About() {
   return (
     <div>
       <Navbar/>
-      <div id="about">
-        <h1>About</h1>
-        <p>
+      <div className="d-flex flex-column" id="about">
+        <h1 className="text-center">About</h1>
+        <p className="text-center">
           Fish Gallery makes enjoying fishkeeping fun, easy, and exciting!
         </p>
-        <ul>
+        <ul className="ml-auto mr-auto">
           <li>Learn about fish and fish care</li>
           <li>Sign up to add your tank(s) and fish</li>
           <li>Share photos with your friends</li>
